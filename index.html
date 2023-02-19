@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dashboard</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Bienvenue sur The Dashboard pokémon Admin</h1>
+    <div>
+    <div id="vueFeu">       
+        <h2>Récupérer tous les pokémon de type feu</h2>
+        <div>
+        <button id="get-all-button-feu">Voir toutes les pokémon de type feu</button>
+        <div id="result-get-all"></div>
+        </div>
+        <h2>Récupérer un  pokémon de type feu par id</h2>
+        <div>
+            <label for="id">Id du pokémon type feu</label>
+            <input type="text" id="id-feu">
+            <button id="get-by-id-button-feu">Récupérer par iD</button>
+            <div id="get-one-by-id-feu"></div>
+    </div>
+        </div>
+        <h2>Création d'un pokémon type feu</h2>
+        <div id="ajoutFeu">
+            <label for="name">Nom du pokémon type feu</label>
+            <input type="text" id="create-feu" />
+            <label for="price">Prix du pokémon</label>
+            <input type="number" id="prix-feu"/>
+            <button id="create-button-feu">Ajout d'un pokémon</button>
+        </div>
+        <h2>Mise à jour des pokémon</h2>
+        <div id="upFeu">
+            <label for="Id">Id du pokémon</label>
+            <input type="text" id="id-feu-update"/>
+            <label for= "name">Prix du pokémon</label>
+            <input type="number" id="update-feu"/>
+            <button id="update-button-feu">Mise à jour </button>
+        </div>    
+        <h2>Supprimer un pokémon type feu par son Id</h2>
+        <div id="delFeu">
+            <label for="id">Id du pokémon type feu</label>
+            <input type="text" id="id-feu-delete">
+            <button id="delete-button-feu">Supprimer</button>
+        </div>
+    </div>
+    <div>
+        <div id="vueLegendaire">       
+            <h2>Récupérer tous les pokémon légendaire</h2>
+            <div>
+            <button id="get-all-button-legendaire">Voir toutes les pokémon legendaire</button>
+            <div id="result-get-all-legendaire"></div>
+            </div>
+            <h2>Récupérer un pokémon légendaire par son id</h2>
+            <div>
+                <label for="id">Id du pokémon légendaire</label>
+                <input type="text" id="id-legendaire">
+                <button id="get-by-id-button-legendaire">Récupérer par iD</button>
+                <div id="get-one-by-id-legendaire"></div>
+            </div>
+            <h2>Création d'un pokémon légendaire</h2>
+            <div id="ajoutLegendaire">
+                <label for="price">Prix du pokémon</label>
+                <input type="number" id="prix-legendaire"/>
+                <label for="name">Nom du pokémon légendaire</label>
+                <input type="text" id="create-legendaire" />
+                <button id="create-button-legendaire">Ajout d'un pokémon</button>
+            </div>
+            <h2>Mise à jour des pokémon</h2>
+            <div id="upLegendaire">
+                <label for="Id">Id du pokémon</label>
+                <input type="text" id="id-legendaire-update"/>
+                <label for= "name">Prix du pokémon</label>
+                <input type="number" id="update-legendaire"/>
+                <button id="update-button-legendaire">Mise à jour </button>
+            </div>    
+            <h2>Supprimer un pokémon légendaire par son Id</h2>
+            <div id="delLegendaire">
+                <label for="id">Id du pokémon type feu</label>
+                <input type="text" id="id-legendaire-delete">
+                <button id="delete-button-legendaire">Supprimer</button>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

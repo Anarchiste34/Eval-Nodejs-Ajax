@@ -1,0 +1,36 @@
+{
+    "feu": [
+        {
+            "id": 1,
+            "name": "Dracaufeu",
+            "prix": "900 000€"
+        },
+        {
+            "id": 2,
+            "name": "Brasegali",
+            "prix": "50 000€"
+        },
+        {
+            "id": 3,
+            "name": "Ouisticram",
+            "prix": "25 000€"
+        }
+    ],
+    "legendaire": [
+        {
+            "id": 1,
+            "name": "1",
+            "prix": "1 000 000€"
+        },
+        {
+            "id": 2,
+            "name": "Artikodin",
+            "prix": "500 000€"
+        },
+        {
+            "id": 3,
+            "name": "Suicune",
+            "prix": "300 000€"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+* {
+    bottom: auto;
+    background-color: beige;
+    grid-area: auto;
+}
+
+h1 {
+    border: solid 5px;
+    border-color: red;
+    color: blueviolet;
+
+}
+
+h2 {
+    border: solid 5px;
+    border-color: red;
+    color: blueviolet;
+}
+
+#vufeu {
+   color: blueviolet;
+   font-size: 25px;
+}
